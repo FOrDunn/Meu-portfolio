@@ -1,13 +1,143 @@
 body {
+  background: url(../public/mainBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.appHeader {
+  display: flex;
+  color: #ffffff;
+  height: 100px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navBar {
+  display: flex;
+  margin-right: 100px;
+  font-weight: 600;
+}
+
+.navBarItems {
+  display: inline-block;
+  margin-right: 50px;
+  position: relative;
+}
+
+.navBarItems:last-child {
+  margin-right: 0;
+}
+
+.navBarItems:after {
+  bottom: 0;
+  background-color: #ef5454;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  width: 100%;
+}
+
+.navBarItems:hover {
+  cursor: pointer;
+}
+
+.navBarItems:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.homeMain {
+  display: flex;
+  margin-top: 50px;
+}
+
+.leftSection {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 150px);
+  padding-left: 150px;
+  width: 800px;
+}
+
+.mainTitle {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 900;
+  color: #fed0af;
+}
+
+.mainDescription {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.buttonsRow {
+  display: flex;
+}
+
+.linkButton {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  margin-top: 45px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.linkButton:first-child {
+  background-color: #ef5454;
+  margin-right: 60px;
+}
+
+.linkButton:last-child {
+  background-color: rgb(196, 196, 196, 0.33);
+}
+
+.linkButton:hover {
+  cursor: pointer;
+}
+
+.linkButton {
+  position: relative;
+  transition: 0.5s;
+}
+
+.linkButton:after {
+  content: "->";
+  position: absolute;
+  opacity: 0;
+  top: 20px;
+  right: -20px;
+  transition: 0.5s;
+}
+.linkButton:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.linkButton:hover:after {
+  opacity: 1;
+  right: 30px;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100vw - 800px);
+}
+
+.mainImage {
+  width: 490px;
+  height: 545px;
+  padding-right: 45px;
+  padding-top: 100px;
 }
