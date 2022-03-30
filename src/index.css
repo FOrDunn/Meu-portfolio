@@ -8,8 +8,8 @@ body {
 }
 
 .app {
-  width: 80%;
   margin: auto;
+  width: 80%;
 }
 
 .appHeader {
@@ -72,10 +72,10 @@ body {
 }
 
 .mainTitle {
-  text-align: center;
+  color: #fed0af;
   font-size: 45px;
   font-weight: 900;
-  color: #fed0af;
+  text-align: center;
 }
 
 .mainDescription {
@@ -89,12 +89,12 @@ body {
 
 .linkButton {
   align-items: center;
+  border-radius: 5px;
   display: flex;
   height: 75px;
   justify-content: center;
   margin-top: 45px;
   width: 300px;
-  border-radius: 5px;
 }
 
 .linkButton:first-child {
@@ -117,15 +117,15 @@ body {
 
 .linkButton:after {
   content: "->";
-  position: absolute;
   opacity: 0;
-  top: 20px;
+  position: absolute;
   right: -20px;
+  top: 20px;
   transition: 0.5s;
 }
 .linkButton:hover {
-  padding-right: 24px;
   padding-left: 8px;
+  padding-right: 24px;
 }
 
 .linkButton:hover:after {
@@ -140,8 +140,8 @@ body {
 }
 
 .mainImage {
-  width: 490px;
   height: 545px;
   padding-right: 45px;
   padding-top: 100px;
+  width: 490px;
 }
