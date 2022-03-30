@@ -51,10 +51,10 @@ body {
 }
 
 .navBarItems:after {
-  bottom: 0;
+  bottom: -5px;
   background-color: #ef5454;
   content: "";
-  height: 3px;
+  height: 5px;
   left: 0;
   position: absolute;
   transform: scaleX(0);
@@ -70,4 +70,9 @@ body {
 .navBarItems:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.navBarItems[data-selected="true"] {
+  border-bottom: 5px solid #ef5454;
+  margin-bottom: -5px;
 }
