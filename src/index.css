@@ -7,17 +7,22 @@ body {
   margin: 0;
 }
 
+.app {
+  width: 80%;
+  margin: auto;
+}
+
 .appHeader {
-  display: flex;
-  color: #ffffff;
-  height: 100px;
   align-items: center;
+  color: #ffffff;
+  display: flex;
+  height: 100px;
   justify-content: flex-end;
+  width: 95%;
 }
 
 .navBar {
   display: flex;
-  margin-right: 100px;
   font-weight: 600;
 }
 
@@ -63,7 +68,6 @@ body {
   display: flex;
   flex-direction: column;
   height: calc(100vh - 150px);
-  padding-left: 150px;
   width: 800px;
 }
 
