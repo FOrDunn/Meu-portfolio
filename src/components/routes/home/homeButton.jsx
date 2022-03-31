@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+
+
 function Homebutton(props) {
     return (
-        <a className="linkButton">
+        <Link to={props.link} className="linkButton">
             <p>{props.content}</p>
-        </a>
+        </Link>
     );
 }
 

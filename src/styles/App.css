@@ -20,6 +20,10 @@ body {
   margin: 0;
 }
 
+a:any-link {
+  color: #ffffff;
+}
+
 .app {
   margin: auto;
   width: 80%;

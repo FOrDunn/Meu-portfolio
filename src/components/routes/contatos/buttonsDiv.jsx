@@ -5,8 +5,8 @@ import Contactbutton from './contactButton';
 function Buttondiv() {
     return (
         <div className="contactButtonsDiv">
-            <Contactbutton content="linkedin" img={linkedinIcon}/>
-            <Contactbutton content="E-mail" img={emailIcon}/>
+            <Contactbutton content="linkedin" img={linkedinIcon} href="https://www.linkedin.com/in/juan-cruz-blandi/"/>
+            <Contactbutton content="E-mail" img={emailIcon}  href="mailto:cruzjuanblandi@gmail.com"/>
         </div>
     );
 }
