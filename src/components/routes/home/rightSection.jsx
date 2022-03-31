@@ -1,4 +1,4 @@
-import img from '../../../assets/homeAvatar.svg'
+import img from '../../../assets/homeImage.svg'
 
 function Rightsection() {
     return (

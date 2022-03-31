@@ -1,0 +1,154 @@
+.contatoMain {
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
+
+.contatoLeftSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 400px;
+}
+
+.contatoTitle {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+
+.rightWrapper {
+    color: #ffffff;
+    align-items: center;
+    background: rgba(172, 166, 166, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 40px 40px 15px;
+    width: 100%;
+  }
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.inputWrapper {
+  width: 100%;
+    line-height: 1;
+  }
+
+.inputLabels {
+  font-size: 18px;
+}
+
+.formInput {
+    background-color: rgb(232, 240, 254, 0.3);
+    border-radius: 10px;
+    border: none;
+    font-family: poppins, sans-serif;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+  }
+
+.formInput:hover {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formInput:focus {
+    outline: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+
+.formInputTextarea {
+
+    height: 100px;
+  }
+
+.formButton {
+    background-color: #EF5454;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    height: 45px;
+    transition: 0.2s;
+    width: 130px;
+  }
+
+.formButton:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.midDiv{
+  font-size: 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.contactOptions {
+  width: 100%;
+}
+
+.contactButtonsDiv {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.contactButton {
+  align-items: center;
+  background: rgba(184, 184, 184, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height:50px;
+  justify-content: space-evenly;
+  margin: 5px 10px 10px 5px ;
+  transition: 0.2s;
+  width: 130px;
+}
+
+.contactButton:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contentContact {
+  padding-top: 2px;
+  padding-right: 3px;
+  line-height: 1em;
+  font-size: 20px;
+}
+
+.linkedinIcon {
+  height: 30px;
+  width: auto;
+}
+
+.emailIcon {
+  height: 31px;
+  width: auto;
+}
+
+.emailIcon + .contentContact {
+  padding-right: 5px;
+}
+
+.contatoImage {
+  margin-top: 70px;
+  width: 500px;
+  }
