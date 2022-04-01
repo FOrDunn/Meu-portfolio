@@ -2,7 +2,7 @@ import Forminput from "./formInput";
 
 function Contactform() {
     return (
-        <form className="emailForm">
+        <form className="emailForm" action="https://formsubmit.co/cruzjuanblandi@gmail.com" method="POST">
             <div className="inputWrapper">
                 <Forminput name="nome" type="text" content="Nome:"/>
                 <Forminput name="email" type="email" content="E-mail:"/>
