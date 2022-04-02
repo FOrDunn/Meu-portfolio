@@ -1,6 +1,82 @@
+.projetosMain {
+  margin: auto;
+  width: 90%;
+}
+
 .projetosTitle {
     color: #ffffff;
+    display: flex;
     font-size: 45px;
     font-weight: 900;
-    margin-bottom: 115px;
-  }
+    justify-content: center;
+    margin-bottom: 70px;
+    width: 370px;
+}
+
+.projetosWrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.projetosButton {
+  height: 65px;
+  width: 65px;
+  background: rgba(172, 166, 166, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 50px;
+}
+
+.projetosDiv {
+    background: rgba(172, 166, 166, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    display: flex;
+    height: 400px;
+    margin: 0px 30px;
+    padding: 40px;
+    width: 700px;
+}
+
+.leftSectionProjetos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.projetoImage {
+  background-color: gray;
+  border-radius: 5px;
+  height: 170px;
+  width: 100%;
+}
+
+.projetoTech {
+  color: #FED0AF;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.rightSectionProjetos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+  width: 300px;
+}
+
+.projetoName {
+  font-size: 25px;
+  color: #FED0AF;
+  font-weight: 600;
+}
+
+.projetoDescription {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+}
