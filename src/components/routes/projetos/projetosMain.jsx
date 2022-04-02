@@ -1,5 +1,6 @@
 import { useTitle } from "../../hooks/useTitle";
 import Projetostitle from "./projetosTitle";
+import projetoImagem from "../../../assets/portfolioImage.png"
 
 function Projetosmain() {
     useTitle("Projetos | Juan Blandi");
@@ -11,7 +12,7 @@ function Projetosmain() {
                 <div className="projetosButton"><p></p></div>
                 <div className="projetosDiv">
                     <div className="leftSectionProjetos">
-                        <div className="projetoImage"><img/></div>
+                        <div className="projetoImageWrapper"><img src={projetoImagem} className="projetoImage"/></div>
                         <h2 className="projetoTech">Tecnologias</h2>
                         <div className="techIcons">
                             <img/>

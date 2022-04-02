@@ -46,10 +46,13 @@
   width: 300px;
 }
 
-.projetoImage {
-  background-color: gray;
-  border-radius: 5px;
+.projetoImageWrapper {
   height: 170px;
+  width: 100%;
+}
+
+.projetoImage {
+  border-radius: 5px;
   width: 100%;
 }
 
