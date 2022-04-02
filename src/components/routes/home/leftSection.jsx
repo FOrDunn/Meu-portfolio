@@ -8,7 +8,7 @@ function Leftsection() {
           <Maintitle/>
           <Maindescription 
           content="Ola! Meu nome e Juan Blandi e eu tenho uma enorme
-                  paixao de criar coisas na web."
+                  paixão de criar coisas na web."
           />
           <Maindescription content="De front a back-end, você encontra tudo aqui!"/>
           <Buttonrow/>
