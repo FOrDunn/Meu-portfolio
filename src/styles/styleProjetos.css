@@ -60,7 +60,21 @@
   color: #FED0AF;
   font-size: 25px;
   font-weight: 600;
-  margin-top: 10px;
+  margin: 15px 0px;
+}
+
+.techIconDiv {
+  display: flex;
+}
+
+.techIcon {
+  height: 50px;
+  padding-right: 15px;
+  width: auto;
+}
+
+.techIcon:last-child {
+  padding-right: 0px;
 }
 
 .rightSectionProjetos {

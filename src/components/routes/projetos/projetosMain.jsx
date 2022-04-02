@@ -1,6 +1,7 @@
 import { useTitle } from "../../hooks/useTitle";
 import Projetostitle from "./projetosTitle";
 import projetoImagem from "../../../assets/portfolioImage.png"
+import { SiJavascript,SiReact } from 'react-icons/si';
 
 function Projetosmain() {
     useTitle("Projetos | Juan Blandi");
@@ -14,11 +15,9 @@ function Projetosmain() {
                     <div className="leftSectionProjetos">
                         <div className="projetoImageWrapper"><img src={projetoImagem} className="projetoImage"/></div>
                         <h2 className="projetoTech">Tecnologias</h2>
-                        <div className="techIcons">
-                            <img/>
-                            <img/>
-                            <img/>
-                            <img/>
+                        <div className="techIconDiv">
+                            <SiJavascript className="techIcon"/>
+                            <SiReact className="techIcon"/>
                         </div>
                     </div>
                     <div className="rightSectionProjetos">
